@@ -51,6 +51,7 @@ async function bootJava(host) {
   const natives = await fetch('app/natives.json').then(r => r.json());
   await cheerpjInit({
     version: 8,
+    enableDebug: true,
     overrideDocumentBase: new URL('https://cdn.jsdelivr.net/gh/thirstygithub/course-assets@main/', location.href).href,
     // ?dump=ms: print each agent's status and pending steps periodically
     // (facade.web.Launcher) to the Java console
