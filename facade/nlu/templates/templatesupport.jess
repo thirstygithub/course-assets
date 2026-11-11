@@ -1,0 +1,8 @@
+(defclass anaphoricRef facade.characters.wmedef.AnaphoricReferenceWME)
+
+(defclass postBeatMixinInfo facade.characters.wmedef.PostBeatMixinInfoWME)
+
+(deffunction shadowWME (?factKey ?wmeKey)
+  (definstance (fetch ?factKey) (fetch ?wmeKey) static))
+
+
