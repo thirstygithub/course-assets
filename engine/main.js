@@ -67,7 +67,7 @@ async function bootJava(host) {
     },
   });
   status('');
-  const code = await cheerpjRunMain('facade.web.Launcher', 'app/facade.jar', 'facade', 'app/datafiles.txt');
+  const code = await cheerpjRunMain('facade.web.Launcher', 'app/facade.jar.bin', 'facade', 'app/datafiles.txt');
   log(`[java] exited with ${code}`, code ? 'err' : undefined);
 }
 
