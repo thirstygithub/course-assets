@@ -1,0 +1,1312 @@
+{
+ "base": 285212672,
+ "size": 10289152,
+ "entry": 285982096,
+ "exports": {
+  "??0CAnimEngineDLL@@QAE@XZ": 285217058,
+  "??0Stack@@QAE@ABV0@@Z": 285219423,
+  "??0Stack@@QAE@XZ": 285216828,
+  "??0XCursor@@QAE@ABV0@@Z": 285217818,
+  "??0XCursor@@QAE@XZ": 285221568,
+  "??0XDLink@@QAE@ABV0@@Z": 285219288,
+  "??0XDLink@@QAE@XZ": 285219723,
+  "??0XRefCountSmartObject@@QAE@ABV0@@Z": 285220958,
+  "??0XRefCountSmartObject@@QAE@XZ": 285217263,
+  "??0XSmartObject@@QAE@ABV0@@Z": 285218953,
+  "??0XSmartObject@@QAE@XZ": 285222053,
+  "??1Stack@@UAE@XZ": 285221173,
+  "??1XCursor@@UAE@XZ": 285218503,
+  "??1XDLink@@UAE@XZ": 285220773,
+  "??1XRefCountSmartObject@@UAE@XZ": 285217833,
+  "??1XSmartObject@@UAE@XZ": 285218978,
+  "??4CAnimEngineDLL@@QAEAAV0@ABV0@@Z": 285221708,
+  "??4DebugInfo@@QAEAAV0@ABV0@@Z": 285217023,
+  "??4DebugStackInfo@@QAEAAV0@ABV0@@Z": 285221618,
+  "??4Stack@@QAEAAV0@ABV0@@Z": 285220558,
+  "??4XApex@@QAEAAV0@ABV0@@Z": 285221643,
+  "??4XCursor@@QAEAAV0@ABV0@@Z": 285220803,
+  "??4XDLink@@QAEAAV0@ABV0@@Z": 285222103,
+  "??4XRefCountSmartObject@@QAEAAV0@ABV0@@Z": 285216793,
+  "??4XSmartObject@@QAEAAV0@ABV0@@Z": 285221538,
+  "??_7Stack@@6B@": 286713628,
+  "??_7XCursor@@6B@": 286713876,
+  "??_7XDLink@@6B@": 286713420,
+  "??_7XRefCountSmartObject@@6B@": 286713496,
+  "??_7XSmartObject@@6B@": 286713436,
+  "?AddASmartPointer@XSmartObject@@QBEXAAVXDLink@@@Z": 285217513,
+  "?AnimEngineWinMain@@YAHPAUHINSTANCE__@@0PADH@Z": 285216928,
+  "?AttachTo@XDLink@@UAEXAAV1@@Z": 285220633,
+  "?ChangeCursorImage@XCursor@@IAEXW4CursorType@@@Z": 285216918,
+  "?Compress@Stack@@QAEXXZ": 285219873,
+  "?DecrementRefCount@XRefCountSmartObject@@QBEXXZ": 285217938,
+  "?Detach@XDLink@@UAEXXZ": 285219048,
+  "?DetachNext@XDLink@@QAEXXZ": 285218963,
+  "?DetachPrev@XDLink@@QAEXXZ": 285218858,
+  "?GetCurAction@Stack@@QAEJXZ": 285218898,
+  "?GetLastPushedNeutralPos@Stack@@QAEJXZ": 285220223,
+  "?GetStackMemPtr@Stack@@QAEPAJXZ": 285217648,
+  "?GetStackPtr@Stack@@QAEHXZ": 285220588,
+  "?GetStackSize@Stack@@QAEHXZ": 285216773,
+  "?IncrementRefCount@XRefCountSmartObject@@QBEXXZ": 285217628,
+  "?InitCursor@XCursor@@QAE?AW4ErrorType@@XZ": 285218313,
+  "?InitStack@Stack@@QAEXH@Z": 285217543,
+  "?InsertElement@Stack@@QAEXJH@Z": 285217608,
+  "?IsAttached@XDLink@@QBE_NXZ": 285217913,
+  "?IsCursorStackEmpty@XCursor@@QAE_NXZ": 285221588,
+  "?IsStackEmpty@Stack@@QAE_NXZ": 285220998,
+  "?IsUnreferenced@XRefCountSmartObject@@QBE_NXZ": 285221813,
+  "?JumpCutToCursor@XCursor@@QAEXW4CursorType@@_N@Z": 285219988,
+  "?OffsetPointALittle@XCursor@@QAEXAAU?$XTPoint@H@@@Z": 285217238,
+  "?Override@XCursor@@QAEXW4CursorType@@@Z": 285219083,
+  "?Pop@Stack@@QAEJXZ": 285217563,
+  "?Push@Stack@@QAEXJ@Z": 285221853,
+  "?Push@XCursor@@IAEXW4CursorSequence@@@Z": 285220453,
+  "?PushStoredAction@XCursor@@QAEXW4CursorSequence@@H@Z": 285218383,
+  "?PushTransitionToNeutral@XCursor@@QAEXW4CursorType@@@Z": 285219548,
+  "?Reset@Stack@@QAEXXZ": 285218468,
+  "?ResetStack@XCursor@@QAEXW4ResetCursorType@@@Z": 285217843,
+  "?ResolveRand@Stack@@IAEJXZ": 285220183,
+  "?Restore@XCursor@@QAEXXZ": 285220848,
+  "?RestorePtr@Stack@@QAEXXZ": 285220153,
+  "?RestoreState@Stack@@QAEXXZ": 285219113,
+  "?SavePtr@Stack@@QAEXXZ": 285219273,
+  "?SaveState@Stack@@QAEXXZ": 285221163,
+  "?SetCurAction@Stack@@QAEXJ@Z": 285216813,
+  "?SetCursorPosition@XCursor@@QAE_NABU?$XTPoint@H@@@Z": 285217243,
+  "?SetLastPushedNeutralPos@Stack@@QAEXJ@Z": 285220188,
+  "?SetRate@XCursor@@QAEXH@Z": 285217388,
+  "?SetStackPtr@Stack@@QAEXH@Z": 285220688,
+  "?SetStackSize@Stack@@QAEXH@Z": 285219478,
+  "?SetStackVal@Stack@@QAEXHJ@Z": 285219588,
+  "?SetStackValOffset@Stack@@QAEXHJ@Z": 285221333,
+  "?Skip@Stack@@QAEXH@Z": 285217808,
+  "?StackRemaining@Stack@@QAEHXZ": 285217073,
+  "?UndoSavePtr@Stack@@QAEXXZ": 285218718,
+  "?Update@XCursor@@QAEXXZ": 285218208,
+  "?_IsOnlySmartPtr@XSmartObject@@QBE_NABVXDLink@@@Z": 285219108,
+  "?fnAnimEngineDLL@@YAHXZ": 285217773,
+  "?nAnimEngineDLL@@3HA": 287310900,
+  "?theirCursor@XCursor@@2PAV1@A": 295418608,
+  "AnimAPI_AbortAnimationScripts": 285218948,
+  "AnimAPI_AbortTurnInPlace": 285217743,
+  "AnimAPI_AbortWalkStep": 285221288,
+  "AnimAPI_AddEventInfoToLog": 285217878,
+  "AnimAPI_DoFullExpressionBaseAnimation": 285218923,
+  "AnimAPI_DoFullExpressionMoodAnimation": 285218108,
+  "AnimAPI_DoGestureAnimation": 285219308,
+  "AnimAPI_DoPickupObjGestureAnimation": 285216888,
+  "AnimAPI_DoPutdownObjGestureAnimation": 285221328,
+  "AnimAPI_GetAllHeldObjects": 285219213,
+  "AnimAPI_GetAllObjectPickupPositions": 285219463,
+  "AnimAPI_GetAllObjectPickupRotations": 285219458,
+  "AnimAPI_GetAllObjectPositions": 285217473,
+  "AnimAPI_GetAllObjectRotations": 285221918,
+  "AnimAPI_GetAllObjectStagingRotations": 285217918,
+  "AnimAPI_GetAllObjectStates": 285217203,
+  "AnimAPI_GetArmGestureBases": 285219168,
+  "AnimAPI_GetBrowShapeL": 285220923,
+  "AnimAPI_GetBrowShapeR": 285220943,
+  "AnimAPI_GetEyelidHeightL": 285219948,
+  "AnimAPI_GetEyelidHeightR": 285219983,
+  "AnimAPI_GetEyesMove": 285216833,
+  "AnimAPI_GetEyesShape": 285220938,
+  "AnimAPI_GetGazeTracking": 285219378,
+  "AnimAPI_GetMouthShape": 285219788,
+  "AnimAPI_GetMyCopyOfAllAnimCues": 285221198,
+  "AnimAPI_GetMyCopyOfAllObjectActivations": 285220043,
+  "AnimAPI_GetObjectPickupPosition": 285221753,
+  "AnimAPI_GetObjectPosition": 285218323,
+  "AnimAPI_GetObjectRotation": 285219268,
+  "AnimAPI_MiscLittleAction": 285219238,
+  "AnimAPI_Music": 285221823,
+  "AnimAPI_PlaySoundEffect": 285218918,
+  "AnimAPI_PushAnimationUScript": 285221803,
+  "AnimAPI_PushMultipleAnimationScripts": 285218993,
+  "AnimAPI_PushPoseScript": 285220318,
+  "AnimAPI_ReactiveWalkStep": 285218573,
+  "AnimAPI_ResetMyCopyOfAllAnimCues": 285220973,
+  "AnimAPI_ResetMyCopyOfAllObjectActivations": 285218188,
+  "AnimAPI_SetAnimEngineInfo": 285221078,
+  "AnimAPI_SetBrowShapeL": 285218143,
+  "AnimAPI_SetBrowShapeR": 285218163,
+  "AnimAPI_SetEyelidHeightL": 285217658,
+  "AnimAPI_SetEyelidHeightR": 285217678,
+  "AnimAPI_SetEyesMove": 285218218,
+  "AnimAPI_SetEyesShape": 285221103,
+  "AnimAPI_SetGazeTracking": 285219298,
+  "AnimAPI_SetMouthShape": 285220893,
+  "AnimAPI_SetObjectPosition": 285216838,
+  "AnimAPI_SetObjectRotation": 285216843,
+  "AnimAPI_SetObjectToHold": 285221613,
+  "AnimAPI_SetPerformanceInfo": 285221063,
+  "AnimAPI_TurnInPlace": 285221463,
+  "AnimAPI_WalkStep": 285217308
+ },
+ "imports": [
+  [
+   295429924,
+   "DINPUT8.dll",
+   "DirectInput8Create"
+  ],
+  [
+   295429972,
+   "DSOUND.dll",
+   "#1"
+  ],
+  [
+   295430020,
+   "GDI32.dll",
+   "DeleteObject"
+  ],
+  [
+   295430024,
+   "GDI32.dll",
+   "CreateFontA"
+  ],
+  [
+   295430028,
+   "GDI32.dll",
+   "ChoosePixelFormat"
+  ],
+  [
+   295430032,
+   "GDI32.dll",
+   "SwapBuffers"
+  ],
+  [
+   295430036,
+   "GDI32.dll",
+   "UpdateColors"
+  ],
+  [
+   295430040,
+   "GDI32.dll",
+   "SelectObject"
+  ],
+  [
+   295430044,
+   "GDI32.dll",
+   "SetPixelFormat"
+  ],
+  [
+   295430048,
+   "GDI32.dll",
+   "GetPixelFormat"
+  ],
+  [
+   295430052,
+   "GDI32.dll",
+   "DescribePixelFormat"
+  ],
+  [
+   295430056,
+   "GDI32.dll",
+   "CreatePalette"
+  ],
+  [
+   295430060,
+   "GDI32.dll",
+   "SelectPalette"
+  ],
+  [
+   295430064,
+   "GDI32.dll",
+   "RealizePalette"
+  ],
+  [
+   295430068,
+   "GDI32.dll",
+   "GetObjectA"
+  ],
+  [
+   295430124,
+   "GLU32.dll",
+   "gluBuild1DMipmaps"
+  ],
+  [
+   295430128,
+   "GLU32.dll",
+   "gluProject"
+  ],
+  [
+   295430132,
+   "GLU32.dll",
+   "gluBuild2DMipmaps"
+  ],
+  [
+   295430180,
+   "KERNEL32.dll",
+   "MultiByteToWideChar"
+  ],
+  [
+   295430184,
+   "KERNEL32.dll",
+   "lstrcpyA"
+  ],
+  [
+   295430188,
+   "KERNEL32.dll",
+   "LockResource"
+  ],
+  [
+   295430192,
+   "KERNEL32.dll",
+   "LoadResource"
+  ],
+  [
+   295430196,
+   "KERNEL32.dll",
+   "FindResourceA"
+  ],
+  [
+   295430200,
+   "KERNEL32.dll",
+   "GetModuleHandleA"
+  ],
+  [
+   295430204,
+   "KERNEL32.dll",
+   "GetPriorityClass"
+  ],
+  [
+   295430208,
+   "KERNEL32.dll",
+   "SetPriorityClass"
+  ],
+  [
+   295430212,
+   "KERNEL32.dll",
+   "GetCurrentProcess"
+  ],
+  [
+   295430216,
+   "KERNEL32.dll",
+   "FindClose"
+  ],
+  [
+   295430220,
+   "KERNEL32.dll",
+   "FindNextFileA"
+  ],
+  [
+   295430224,
+   "KERNEL32.dll",
+   "FindFirstFileA"
+  ],
+  [
+   295430228,
+   "KERNEL32.dll",
+   "SetEnvironmentVariableA"
+  ],
+  [
+   295430232,
+   "KERNEL32.dll",
+   "CompareStringW"
+  ],
+  [
+   295430236,
+   "KERNEL32.dll",
+   "CompareStringA"
+  ],
+  [
+   295430240,
+   "KERNEL32.dll",
+   "GetVersionExA"
+  ],
+  [
+   295430244,
+   "KERNEL32.dll",
+   "GetUserDefaultLCID"
+  ],
+  [
+   295430248,
+   "KERNEL32.dll",
+   "EnumSystemLocalesA"
+  ],
+  [
+   295430252,
+   "KERNEL32.dll",
+   "GetLocaleInfoA"
+  ],
+  [
+   295430256,
+   "KERNEL32.dll",
+   "IsValidCodePage"
+  ],
+  [
+   295430260,
+   "KERNEL32.dll",
+   "IsValidLocale"
+  ],
+  [
+   295430264,
+   "KERNEL32.dll",
+   "SetEndOfFile"
+  ],
+  [
+   295430268,
+   "KERNEL32.dll",
+   "LCMapStringW"
+  ],
+  [
+   295430272,
+   "KERNEL32.dll",
+   "LCMapStringA"
+  ],
+  [
+   295430276,
+   "KERNEL32.dll",
+   "GetOEMCP"
+  ],
+  [
+   295430280,
+   "KERNEL32.dll",
+   "GetACP"
+  ],
+  [
+   295430284,
+   "KERNEL32.dll",
+   "GetCPInfo"
+  ],
+  [
+   295430288,
+   "KERNEL32.dll",
+   "GetStringTypeW"
+  ],
+  [
+   295430292,
+   "KERNEL32.dll",
+   "GetStringTypeA"
+  ],
+  [
+   295430296,
+   "KERNEL32.dll",
+   "SetStdHandle"
+  ],
+  [
+   295430300,
+   "KERNEL32.dll",
+   "SetFilePointer"
+  ],
+  [
+   295430304,
+   "KERNEL32.dll",
+   "UnhandledExceptionFilter"
+  ],
+  [
+   295430308,
+   "KERNEL32.dll",
+   "IsBadCodePtr"
+  ],
+  [
+   295430312,
+   "KERNEL32.dll",
+   "SetUnhandledExceptionFilter"
+  ],
+  [
+   295430316,
+   "KERNEL32.dll",
+   "SetConsoleCtrlHandler"
+  ],
+  [
+   295430320,
+   "KERNEL32.dll",
+   "GetEnvironmentStringsW"
+  ],
+  [
+   295430324,
+   "KERNEL32.dll",
+   "GetEnvironmentStrings"
+  ],
+  [
+   295430328,
+   "KERNEL32.dll",
+   "FreeEnvironmentStringsW"
+  ],
+  [
+   295430332,
+   "KERNEL32.dll",
+   "FreeEnvironmentStringsA"
+  ],
+  [
+   295430336,
+   "KERNEL32.dll",
+   "GetStartupInfoA"
+  ],
+  [
+   295430340,
+   "KERNEL32.dll",
+   "CreateFileA"
+  ],
+  [
+   295430344,
+   "KERNEL32.dll",
+   "SetHandleCount"
+  ],
+  [
+   295430348,
+   "KERNEL32.dll",
+   "RaiseException"
+  ],
+  [
+   295430352,
+   "KERNEL32.dll",
+   "WideCharToMultiByte"
+  ],
+  [
+   295430356,
+   "KERNEL32.dll",
+   "VirtualAlloc"
+  ],
+  [
+   295430360,
+   "KERNEL32.dll",
+   "VirtualFree"
+  ],
+  [
+   295430364,
+   "KERNEL32.dll",
+   "HeapCreate"
+  ],
+  [
+   295430368,
+   "KERNEL32.dll",
+   "HeapDestroy"
+  ],
+  [
+   295430372,
+   "KERNEL32.dll",
+   "HeapFree"
+  ],
+  [
+   295430376,
+   "KERNEL32.dll",
+   "HeapReAlloc"
+  ],
+  [
+   295430380,
+   "KERNEL32.dll",
+   "HeapAlloc"
+  ],
+  [
+   295430384,
+   "KERNEL32.dll",
+   "ReadFile"
+  ],
+  [
+   295430388,
+   "KERNEL32.dll",
+   "GetCurrentThread"
+  ],
+  [
+   295430392,
+   "KERNEL32.dll",
+   "TlsGetValue"
+  ],
+  [
+   295430396,
+   "KERNEL32.dll",
+   "SetLastError"
+  ],
+  [
+   295430400,
+   "KERNEL32.dll",
+   "TlsFree"
+  ],
+  [
+   295430404,
+   "KERNEL32.dll",
+   "TlsAlloc"
+  ],
+  [
+   295430408,
+   "KERNEL32.dll",
+   "TlsSetValue"
+  ],
+  [
+   295430412,
+   "KERNEL32.dll",
+   "GetCurrentThreadId"
+  ],
+  [
+   295430416,
+   "KERNEL32.dll",
+   "FatalAppExitA"
+  ],
+  [
+   295430420,
+   "KERNEL32.dll",
+   "LeaveCriticalSection"
+  ],
+  [
+   295430424,
+   "KERNEL32.dll",
+   "EnterCriticalSection"
+  ],
+  [
+   295430428,
+   "KERNEL32.dll",
+   "lstrlenA"
+  ],
+  [
+   295430432,
+   "KERNEL32.dll",
+   "WriteFile"
+  ],
+  [
+   295430436,
+   "KERNEL32.dll",
+   "FlushFileBuffers"
+  ],
+  [
+   295430440,
+   "KERNEL32.dll",
+   "Sleep"
+  ],
+  [
+   295430444,
+   "KERNEL32.dll",
+   "OutputDebugStringA"
+  ],
+  [
+   295430448,
+   "KERNEL32.dll",
+   "GlobalAlloc"
+  ],
+  [
+   295430452,
+   "KERNEL32.dll",
+   "GlobalLock"
+  ],
+  [
+   295430456,
+   "KERNEL32.dll",
+   "GlobalUnlock"
+  ],
+  [
+   295430460,
+   "KERNEL32.dll",
+   "GlobalFree"
+  ],
+  [
+   295430464,
+   "KERNEL32.dll",
+   "CreateMutexA"
+  ],
+  [
+   295430468,
+   "KERNEL32.dll",
+   "CreateFileMappingA"
+  ],
+  [
+   295430472,
+   "KERNEL32.dll",
+   "GetLastError"
+  ],
+  [
+   295430476,
+   "KERNEL32.dll",
+   "MapViewOfFile"
+  ],
+  [
+   295430480,
+   "KERNEL32.dll",
+   "UnmapViewOfFile"
+  ],
+  [
+   295430484,
+   "KERNEL32.dll",
+   "DeleteCriticalSection"
+  ],
+  [
+   295430488,
+   "KERNEL32.dll",
+   "InitializeCriticalSection"
+  ],
+  [
+   295430492,
+   "KERNEL32.dll",
+   "GetModuleFileNameA"
+  ],
+  [
+   295430496,
+   "KERNEL32.dll",
+   "InterlockedIncrement"
+  ],
+  [
+   295430500,
+   "KERNEL32.dll",
+   "LoadLibraryA"
+  ],
+  [
+   295430504,
+   "KERNEL32.dll",
+   "GetProcAddress"
+  ],
+  [
+   295430508,
+   "KERNEL32.dll",
+   "SetEvent"
+  ],
+  [
+   295430512,
+   "KERNEL32.dll",
+   "CreateEventA"
+  ],
+  [
+   295430516,
+   "KERNEL32.dll",
+   "OpenEventA"
+  ],
+  [
+   295430520,
+   "KERNEL32.dll",
+   "GetTickCount"
+  ],
+  [
+   295430524,
+   "KERNEL32.dll",
+   "InterlockedDecrement"
+  ],
+  [
+   295430528,
+   "KERNEL32.dll",
+   "GetStdHandle"
+  ],
+  [
+   295430532,
+   "KERNEL32.dll",
+   "DebugBreak"
+  ],
+  [
+   295430536,
+   "KERNEL32.dll",
+   "GetVersion"
+  ],
+  [
+   295430540,
+   "KERNEL32.dll",
+   "GetCommandLineA"
+  ],
+  [
+   295430544,
+   "KERNEL32.dll",
+   "TerminateProcess"
+  ],
+  [
+   295430548,
+   "KERNEL32.dll",
+   "ExitProcess"
+  ],
+  [
+   295430552,
+   "KERNEL32.dll",
+   "GetLocalTime"
+  ],
+  [
+   295430556,
+   "KERNEL32.dll",
+   "GetSystemTime"
+  ],
+  [
+   295430560,
+   "KERNEL32.dll",
+   "GetTimeZoneInformation"
+  ],
+  [
+   295430564,
+   "KERNEL32.dll",
+   "HeapValidate"
+  ],
+  [
+   295430568,
+   "KERNEL32.dll",
+   "IsBadReadPtr"
+  ],
+  [
+   295430572,
+   "KERNEL32.dll",
+   "IsBadWritePtr"
+  ],
+  [
+   295430576,
+   "KERNEL32.dll",
+   "GetLocaleInfoW"
+  ],
+  [
+   295430580,
+   "KERNEL32.dll",
+   "RtlUnwind"
+  ],
+  [
+   295430584,
+   "KERNEL32.dll",
+   "CloseHandle"
+  ],
+  [
+   295430588,
+   "KERNEL32.dll",
+   "ReleaseMutex"
+  ],
+  [
+   295430592,
+   "KERNEL32.dll",
+   "GetFileType"
+  ],
+  [
+   295430596,
+   "KERNEL32.dll",
+   "WaitForSingleObject"
+  ],
+  [
+   295430728,
+   "OPENGL32.dll",
+   "glTexCoord2f"
+  ],
+  [
+   295430732,
+   "OPENGL32.dll",
+   "glBindTexture"
+  ],
+  [
+   295430736,
+   "OPENGL32.dll",
+   "glEnable"
+  ],
+  [
+   295430740,
+   "OPENGL32.dll",
+   "glAlphaFunc"
+  ],
+  [
+   295430744,
+   "OPENGL32.dll",
+   "glDisable"
+  ],
+  [
+   295430748,
+   "OPENGL32.dll",
+   "glLoadIdentity"
+  ],
+  [
+   295430752,
+   "OPENGL32.dll",
+   "glTranslatef"
+  ],
+  [
+   295430756,
+   "OPENGL32.dll",
+   "glEvalCoord1f"
+  ],
+  [
+   295430760,
+   "OPENGL32.dll",
+   "glMap1f"
+  ],
+  [
+   295430764,
+   "OPENGL32.dll",
+   "glBlendFunc"
+  ],
+  [
+   295430768,
+   "OPENGL32.dll",
+   "glFrontFace"
+  ],
+  [
+   295430772,
+   "OPENGL32.dll",
+   "glClearColor"
+  ],
+  [
+   295430776,
+   "OPENGL32.dll",
+   "glFlush"
+  ],
+  [
+   295430780,
+   "OPENGL32.dll",
+   "glClear"
+  ],
+  [
+   295430784,
+   "OPENGL32.dll",
+   "glColor4f"
+  ],
+  [
+   295430788,
+   "OPENGL32.dll",
+   "glPopMatrix"
+  ],
+  [
+   295430792,
+   "OPENGL32.dll",
+   "glGetDoublev"
+  ],
+  [
+   295430796,
+   "OPENGL32.dll",
+   "glMultMatrixd"
+  ],
+  [
+   295430800,
+   "OPENGL32.dll",
+   "glRotatef"
+  ],
+  [
+   295430804,
+   "OPENGL32.dll",
+   "glPushMatrix"
+  ],
+  [
+   295430808,
+   "OPENGL32.dll",
+   "glGetIntegerv"
+  ],
+  [
+   295430812,
+   "OPENGL32.dll",
+   "glScalef"
+  ],
+  [
+   295430816,
+   "OPENGL32.dll",
+   "glGetFloatv"
+  ],
+  [
+   295430820,
+   "OPENGL32.dll",
+   "glRasterPos2i"
+  ],
+  [
+   295430824,
+   "OPENGL32.dll",
+   "wglUseFontOutlinesA"
+  ],
+  [
+   295430828,
+   "OPENGL32.dll",
+   "glGenLists"
+  ],
+  [
+   295430832,
+   "OPENGL32.dll",
+   "glDeleteLists"
+  ],
+  [
+   295430836,
+   "OPENGL32.dll",
+   "glPopAttrib"
+  ],
+  [
+   295430840,
+   "OPENGL32.dll",
+   "glCallLists"
+  ],
+  [
+   295430844,
+   "OPENGL32.dll",
+   "glListBase"
+  ],
+  [
+   295430848,
+   "OPENGL32.dll",
+   "glPushAttrib"
+  ],
+  [
+   295430852,
+   "OPENGL32.dll",
+   "glTexImage2D"
+  ],
+  [
+   295430856,
+   "OPENGL32.dll",
+   "glTexParameterf"
+  ],
+  [
+   295430860,
+   "OPENGL32.dll",
+   "glGenTextures"
+  ],
+  [
+   295430864,
+   "OPENGL32.dll",
+   "glOrtho"
+  ],
+  [
+   295430868,
+   "OPENGL32.dll",
+   "glMatrixMode"
+  ],
+  [
+   295430872,
+   "OPENGL32.dll",
+   "glViewport"
+  ],
+  [
+   295430876,
+   "OPENGL32.dll",
+   "wglDeleteContext"
+  ],
+  [
+   295430880,
+   "OPENGL32.dll",
+   "wglMakeCurrent"
+  ],
+  [
+   295430884,
+   "OPENGL32.dll",
+   "wglCreateContext"
+  ],
+  [
+   295430888,
+   "OPENGL32.dll",
+   "glVertex2f"
+  ],
+  [
+   295430892,
+   "OPENGL32.dll",
+   "glLineWidth"
+  ],
+  [
+   295430896,
+   "OPENGL32.dll",
+   "glBegin"
+  ],
+  [
+   295430900,
+   "OPENGL32.dll",
+   "glVertex3f"
+  ],
+  [
+   295430904,
+   "OPENGL32.dll",
+   "glEnd"
+  ],
+  [
+   295430988,
+   "SHELL32.dll",
+   "ShellExecuteA"
+  ],
+  [
+   295431036,
+   "USER32.dll",
+   "CreateMenu"
+  ],
+  [
+   295431040,
+   "USER32.dll",
+   "SetMenu"
+  ],
+  [
+   295431044,
+   "USER32.dll",
+   "LoadMenuA"
+  ],
+  [
+   295431048,
+   "USER32.dll",
+   "MessageBeep"
+  ],
+  [
+   295431052,
+   "USER32.dll",
+   "GetAsyncKeyState"
+  ],
+  [
+   295431056,
+   "USER32.dll",
+   "CreateDialogParamA"
+  ],
+  [
+   295431060,
+   "USER32.dll",
+   "SetScrollPos"
+  ],
+  [
+   295431064,
+   "USER32.dll",
+   "AppendMenuA"
+  ],
+  [
+   295431068,
+   "USER32.dll",
+   "EndDialog"
+  ],
+  [
+   295431072,
+   "USER32.dll",
+   "SendMessageA"
+  ],
+  [
+   295431076,
+   "USER32.dll",
+   "SetDlgItemInt"
+  ],
+  [
+   295431080,
+   "USER32.dll",
+   "SetScrollRange"
+  ],
+  [
+   295431084,
+   "USER32.dll",
+   "GetDlgItem"
+  ],
+  [
+   295431088,
+   "USER32.dll",
+   "SetDlgItemTextA"
+  ],
+  [
+   295431092,
+   "USER32.dll",
+   "GetForegroundWindow"
+  ],
+  [
+   295431096,
+   "USER32.dll",
+   "GetWindowLongA"
+  ],
+  [
+   295431100,
+   "USER32.dll",
+   "DialogBoxParamA"
+  ],
+  [
+   295431104,
+   "USER32.dll",
+   "LoadImageA"
+  ],
+  [
+   295431108,
+   "USER32.dll",
+   "SetClassLongA"
+  ],
+  [
+   295431112,
+   "USER32.dll",
+   "SetCursor"
+  ],
+  [
+   295431116,
+   "USER32.dll",
+   "ClipCursor"
+  ],
+  [
+   295431120,
+   "USER32.dll",
+   "SetCursorPos"
+  ],
+  [
+   295431124,
+   "USER32.dll",
+   "LoadCursorA"
+  ],
+  [
+   295431128,
+   "USER32.dll",
+   "RegisterClassA"
+  ],
+  [
+   295431132,
+   "USER32.dll",
+   "CreateWindowExA"
+  ],
+  [
+   295431136,
+   "USER32.dll",
+   "ShowWindow"
+  ],
+  [
+   295431140,
+   "USER32.dll",
+   "UpdateWindow"
+  ],
+  [
+   295431144,
+   "USER32.dll",
+   "GetMessageA"
+  ],
+  [
+   295431148,
+   "USER32.dll",
+   "TranslateMessage"
+  ],
+  [
+   295431152,
+   "USER32.dll",
+   "DispatchMessageA"
+  ],
+  [
+   295431156,
+   "USER32.dll",
+   "GetKeyboardState"
+  ],
+  [
+   295431160,
+   "USER32.dll",
+   "MapVirtualKeyExA"
+  ],
+  [
+   295431164,
+   "USER32.dll",
+   "ToAsciiEx"
+  ],
+  [
+   295431168,
+   "USER32.dll",
+   "GetDC"
+  ],
+  [
+   295431172,
+   "USER32.dll",
+   "ReleaseDC"
+  ],
+  [
+   295431176,
+   "USER32.dll",
+   "BeginPaint"
+  ],
+  [
+   295431180,
+   "USER32.dll",
+   "EndPaint"
+  ],
+  [
+   295431184,
+   "USER32.dll",
+   "InvalidateRect"
+  ],
+  [
+   295431188,
+   "USER32.dll",
+   "DefWindowProcA"
+  ],
+  [
+   295431192,
+   "USER32.dll",
+   "LoadIconA"
+  ],
+  [
+   295431196,
+   "USER32.dll",
+   "GetKeyboardLayout"
+  ],
+  [
+   295431200,
+   "USER32.dll",
+   "LoadBitmapA"
+  ],
+  [
+   295431204,
+   "USER32.dll",
+   "MessageBoxA"
+  ],
+  [
+   295431208,
+   "USER32.dll",
+   "OpenClipboard"
+  ],
+  [
+   295431212,
+   "USER32.dll",
+   "EmptyClipboard"
+  ],
+  [
+   295431216,
+   "USER32.dll",
+   "SetClipboardData"
+  ],
+  [
+   295431220,
+   "USER32.dll",
+   "CloseClipboard"
+  ],
+  [
+   295431224,
+   "USER32.dll",
+   "GetDlgItemTextA"
+  ],
+  [
+   295431228,
+   "USER32.dll",
+   "GetDlgItemInt"
+  ],
+  [
+   295431312,
+   "WINMM.dll",
+   "mmioRead"
+  ],
+  [
+   295431316,
+   "WINMM.dll",
+   "mmioClose"
+  ],
+  [
+   295431320,
+   "WINMM.dll",
+   "mmioDescend"
+  ],
+  [
+   295431324,
+   "WINMM.dll",
+   "mmioOpenA"
+  ],
+  [
+   295431328,
+   "WINMM.dll",
+   "mmioAscend"
+  ],
+  [
+   295431380,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_FullExpressionMoodFinished@@YA_NH_N@Z"
+  ],
+  [
+   295431384,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_PlayerGestured@@YA_NHHH@Z"
+  ],
+  [
+   295431388,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_PlayerEnteredText@@YA_NQAD@Z"
+  ],
+  [
+   295431392,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_GestureFinished@@YA_NHH_N@Z"
+  ],
+  [
+   295431396,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_FullExpressionBaseFinished@@YA_NH_N@Z"
+  ],
+  [
+   295431400,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_ScriptFinished@@YA_NHH@Z"
+  ],
+  [
+   295431404,
+   "nativeaniminterface.dll",
+   "?AblCallbackAPI_WalkStepFinished@@YA_NH_N@Z"
+  ],
+  [
+   295431456,
+   "ole32.dll",
+   "CoInitialize"
+  ],
+  [
+   295431460,
+   "ole32.dll",
+   "CoUninitialize"
+  ],
+  [
+   295431464,
+   "ole32.dll",
+   "CoCreateInstance"
+  ]
+ ]
+}

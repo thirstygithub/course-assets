@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<base href="https://cdn.jsdelivr.net/gh/thirstygithub/course-assets@main/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Façade</title>
+<script>document.write('<script src="https://cjrtnc.leaningtech.com/5.0/loader.js"><\/script>');</script>
+<style>
+  :root { --bg:#000; --fg:#ddd; --muted:#888; --err:#ff6b6b; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:14px system-ui,sans-serif; }
+  body { display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  #screen { display:block; width:min(100vw,calc(100vh * 4 / 3)); height:auto; aspect-ratio:4/3; background:#000; outline:none; }
+  #overlay { position:fixed; inset:0; display:flex; flex-direction:column; gap:14px; align-items:center; justify-content:center; background:#000; }
+  #overlay h1 { font:400 42px Georgia,serif; margin:0; letter-spacing:1px; }
+  #status { position:fixed; left:8px; bottom:6px; color:var(--muted); font-size:12px; pointer-events:none; }
+</style>
+<script>
+(function(){
+  var parts=["engine/engine.wasm.part001","engine/engine.wasm.part002","engine/engine.wasm.part003"];
+  var orig=window.fetch.bind(window);
+  window.fetch=function(input,init){
+    var url=typeof input==="string"?input:(input&&input.url)||"";
+    if(/engine\.wasm(\?|$)/.test(url)){
+      return Promise.all(parts.map(function(p){return orig(p,init).then(function(r){if(!r.ok)throw new Error("missing "+p);return r.arrayBuffer();});}))
+        .then(function(bufs){
+          var total=0;bufs.forEach(function(b){total+=b.byteLength;});
+          var out=new Uint8Array(total),off=0;
+          bufs.forEach(function(b){out.set(new Uint8Array(b),off);off+=b.byteLength;});
+          return new Response(out,{status:200,headers:{"Content-Type":"application/wasm"}});
+        });
+    }
+    return orig(input,init);
+  };
+})();
+</script>
+</head>
+<body>
+<canvas id="screen" width="1024" height="768" tabindex="0"></canvas>
+<div id="overlay">
+  <h1>Façade</h1>
+  <button id="start">Start</button>
+</div>
+<div id="status"></div>
+<pre id="console" hidden></pre>
+
+<script type="module">await import("./engine/main.js");</script>
+</body>
+</html>
